@@ -1,0 +1,611 @@
+@keyframes mill {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-1turn);
+    }
+}
+
+@keyframes cloud1 {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    48%{
+        opacity: 1;
+    }
+    49%{
+        left: -26%;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    51%{
+        left: 102%;
+        opacity: 0;
+    }
+    52%{
+        opacity: 1;
+    }
+}
+@keyframes cloud2 {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    68%{
+        opacity: 1;
+    }
+    69%{
+        left: -26%;
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        left: 101%;
+        opacity: 0;
+    }
+    72%{
+        opacity: 1;
+    }
+}
+@keyframes cloud3 {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    32%{
+        opacity: 1;
+    }
+    33%{
+        left: -26%;
+        opacity: 0;
+    }
+    34%{
+        opacity: 0;
+    }
+    35%{
+        left: 101%;
+        opacity: 0;
+    }
+    36%{
+        opacity: 1;
+    }
+}
+@keyframes cloud4 {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    68%{
+        opacity: 1;
+    }
+    69%{
+        left: -26%;
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    71%{
+        left: 101%;
+        opacity: 0;
+    }
+    72%{
+        opacity: 1;
+    }
+}
+@keyframes cloud5 {
+    0%{
+        transform: translateX(0);
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        left: -26%;
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        left: 101%;
+        opacity: 0;
+    }
+}
+
+@keyframes snow1 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    9%{
+        opacity: 1;
+    }
+    10%{
+        top: 81%;
+        left: 2%;
+        opacity: 0;
+    }
+    11%{
+        top: -2%;
+        left: 16.5%;
+        opacity: 0;
+    }
+    12%{
+        opacity: 1;
+    }
+    40%{
+        top: 25%;
+        left: 8%;
+    }
+    67%{
+        top: 47%;
+        left: 3%;
+    }
+}
+@keyframes snow2 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    33%{
+        top: 73%;
+        left: 2%;
+    }
+    43%{
+        opacity: 1;
+    }
+    44%{
+        top: 81%;
+        left: 2%;
+        opacity: 0;
+    }
+    45%{
+        top: -2%;
+        left: 16.5%;
+        opacity: 0;
+    }
+    46%{
+        opacity: 1;
+    }
+    76%{
+        top: 25%;
+        left: 8%;
+    }
+}
+@keyframes snow3 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    27%{
+        top: 47%;
+        left: 3%;
+    }
+    60%{
+        top: 73%;
+        left: 2%;
+    }
+    70%{
+        opacity: 1;
+    }
+    71%{
+        opacity: 0;
+        top: 81%;
+        left: 2%;
+    }
+    72%{
+        top: -2%;
+        left: 16.5%;
+        opacity: 0;
+    }
+    73%{
+        opacity: 1;
+    }
+}
+
+@keyframes snow4 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    29%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+        top: 81%;
+        left: 19%;
+    }
+    31%{
+        top: -2%;
+        left: 33%;
+        opacity: 0;
+    }
+    32%{
+        opacity: 1;
+    }
+    50%{
+        top: 14%;
+        left: 24%;
+    }
+}
+@keyframes snow5 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    50%{
+        top: 59%;
+        left: 19%;
+    }
+    79%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+        top: 81%;
+        left: 19%;
+    }
+    81%{
+        top: -2%;
+        left: 33%;
+        opacity: 0;
+    }
+    82%{
+        opacity: 1;
+    }
+}
+@keyframes snow6 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    20%{
+        top: 14%;
+        left: 24%;
+    }
+    70%{
+        top: 59%;
+        left: 19%;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+        top: 81%;
+        left: 19%;
+    }
+    99%{
+        top: -2%;
+        left: 33%;
+        opacity: 0;
+    }    
+}
+
+@keyframes snow7 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    9%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+        top: 81%;
+        left: 33%;
+    }
+    11%{
+        top: -2%;
+        left: 50%;
+        opacity: 0;
+    }
+    12%{
+        opacity: 1;
+    }
+    28%{
+        top: 13%;
+        left: 43%;
+    }
+    52%{
+        top: 33%;
+        left: 37%;
+    }
+}
+@keyframes snow8 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    47%{
+        top: 73%;
+        left: 33%;
+    }
+    59%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+        top: 81%;
+        left: 33%;
+    }
+    61%{
+        top: -2%;
+        left: 50%;
+        opacity: 0;
+    }
+    62%{
+        opacity: 1;
+    }
+    78%{
+        top: 13%;
+        left: 43%;
+    }
+}
+@keyframes snow9 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    24%{
+        top: 33%;
+        left: 37%;
+    }
+    71%{
+        top: 73%;
+        left: 33%;
+    }
+    82%{
+        opacity: 1;
+    }
+    83%{
+        opacity: 0;
+        top: 81%;
+        left: 33%;
+    }
+    84%{
+        top: -2%;
+        left: 50%;
+        opacity: 0;
+    }
+    85%{
+        opacity: 1;
+    }
+}
+
+@keyframes snow10 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    44%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 0;
+        top: 81%;
+        left: 53%;
+    }
+    46%{
+        top: -2%;
+        left: 67%;
+        opacity: 0;
+    }
+    47%{
+        opacity: 1;
+    }
+    75%{
+        top: 24%;
+        left: 58%;
+    }
+}
+@keyframes snow11 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    26%{
+        top: 46%;
+        left: 53%;
+    }
+    69%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+        top: 81%;
+        left: 53%;
+    }
+    71%{
+        top: -2%;
+        left: 67%;
+        opacity: 0;
+    }
+    72%{
+        opacity: 1;
+    }    
+}
+@keyframes snow12 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    30%{
+        top: 24%;
+        left: 58%;
+    }
+    56%{
+        top: 46%;
+        left: 53%;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+        top: 81%;
+        left: 53%;
+    }
+    99%{
+        top: -2%;
+        left: 67%;
+        opacity: 0;
+    }   
+}
+
+@keyframes snow13 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    9%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+        top: 81%;
+        left: 70%;
+    }
+    11%{
+        top: -2%;
+        left: 83%;
+        opacity: 0;
+    }
+    12%{
+        opacity: 1;
+    }
+    22%{
+        top: 8%;
+        left: 80%;
+    }
+    53%{
+        top: 35%;
+        left: 74%;
+    }
+}
+@keyframes snow14 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    48%{
+        top: 73%;
+        left: 70%;
+    }
+    59%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+        top: 81%;
+        left: 70%;
+    }
+    61%{
+        top: -2%;
+        left: 83%;
+        opacity: 0;
+    }
+    62%{
+        opacity: 1;
+    }
+    72%{
+        top: 8%;
+        left: 80%;
+    }
+}
+@keyframes snow15 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    31%{
+        top: 35%;
+        left: 74%;
+    }
+    78%{
+        top: 73%;
+        left: 70%;
+    }
+    89%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+        top: 81%;
+        left: 70%;
+    }
+    91%{
+        top: -2%;
+        left: 83%;
+        opacity: 0;
+    }
+    92%{
+        opacity: 1;
+    }
+}
+
+@keyframes snow16 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    9%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+        top: 81%;
+        left: 86%;
+    }
+    11%{
+        top: -2%;
+        left: 100%;
+        opacity: 0;
+    }
+    12%{
+        opacity: 1;
+    }
+    41%{
+        top: 24%;
+        left: 92%;
+    }
+}
+@keyframes snow17 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    59%{
+        top: 73%;
+        left: 86%;
+    }
+    69%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+        top: 81%;
+        left: 86%;
+    }
+    71%{
+        top: -2%;
+        left: 100%;
+        opacity: 0;
+    }
+    72%{
+        opacity: 1;
+    }
+}
+@keyframes snow18 {
+    0%, 100%{
+        transform: translate(0);
+    }
+    30%{
+        top: 24%;
+        left: 92%;
+    }
+    89%{
+        top: 73%;
+        left: 86%;
+    }
+    97%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+        top: 81%;
+        left: 86%;
+    }
+    99%{
+        top: -2%;
+        left: 100%;
+        opacity: 0;
+    }   
+}

@@ -1,0 +1,217 @@
+@import url(animation.css);
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background-color: #011544;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.container{
+    background-color: #89B6D7;
+    width: 80vw;
+    max-width: 1000px;
+    height: 60vw;
+    max-height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.moon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 70%;
+    z-index: 1;
+}
+.mountain{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    width: 100%;
+    z-index: 2;
+}
+.second-field{
+    width: 42%;
+    position: absolute;
+    top: 49%;
+    left: 13%;
+    z-index: 3;
+}
+.first-field{
+    width: 54%;
+    position: absolute;
+    bottom: 12%;
+    left: 24%;
+    z-index: 4;
+}
+.ground{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3%;
+    z-index: 6;
+}
+.windmill{
+    width: 10%;
+    position: absolute;
+    bottom: 35%;
+    right: 16%;
+    z-index: 8;
+}
+.blade{
+    width: 20%;
+    position: absolute;
+    bottom: 37%;
+    right: 11%;
+    z-index: 7;    
+    animation: mill 11s linear infinite;
+}
+.cloud{
+    width: 25%;
+    position: absolute;
+    z-index: 6;    
+}
+.cloud1{
+    top: 12%;
+    left: 37%;
+    animation: cloud1 30s linear infinite;
+}
+.cloud2{
+    top: 20%;
+    left: 67%;
+    animation: cloud2 30s linear infinite;
+}
+.cloud3{
+    top: 28%;
+    left: 21%;
+    animation: cloud3 30s linear infinite;
+}
+.cloud4{
+    top: 45%;
+    left: 67%;
+    animation: cloud4 30s linear infinite;
+}
+.cloud5{
+    top: 38%;
+    left: 101%;
+    animation: cloud5 30s linear infinite;
+}
+.snow{
+    width: 1.2%;
+    position: absolute;
+    z-index: 9;
+}
+.snow1{
+    top: 73%;
+    left: 2%;
+    animation: snow1 50s linear infinite;
+}
+.snow2{
+    top: 47%;
+    left: 3%;
+    animation: snow2 50s linear infinite;
+}
+.snow3{
+    top: 25%;
+    left: 8%;
+    animation: snow3 50s linear infinite;
+}
+.snow4{
+    top: 59%;
+    left: 19%;
+    animation: snow4 50s linear infinite;
+}
+.snow5{
+    top: 14%;
+    left: 24%;
+    animation: snow5 50s linear infinite;
+}
+.snow6{
+    top: -2%;
+    left: 33%;
+    animation: snow6 50s linear infinite;
+}
+.snow7{
+    top: 73%;
+    left: 33%;
+    animation: snow7 50s linear infinite;
+}
+.snow8{
+    top: 33%;
+    left: 37%;
+    animation: snow8 50s linear infinite;
+}
+.snow9{
+    top: 13%;
+    left: 43%;
+    animation: snow9 50s linear infinite;
+}
+.snow10{
+    top: 46%;
+    left: 53%;
+    animation: snow10 50s linear infinite;
+}
+.snow11{
+    top: 24%;
+    left: 58%;
+    animation: snow11 50s linear infinite;
+}
+.snow12{
+    top: -2%;
+    left: 67%;
+    animation: snow12 50s linear infinite;
+}
+.snow13{
+    top: 73%;
+    left: 70%;
+    animation: snow13 50s linear infinite;
+}
+.snow14{
+    top: 35%;
+    left: 74%;
+    animation: snow14 50s linear infinite;
+}
+.snow15{
+    top: 8%;
+    left: 80%;
+    animation: snow15 50s linear infinite;
+}
+.snow16{
+    top: 73%;
+    left: 86%;
+    animation: snow16 50s linear infinite;
+}
+.snow17{
+    top: 24%;
+    left: 92%;
+    animation: snow17 50s linear infinite;
+}
+.snow18{
+    top: -2%;
+    left: 100%;
+    animation: snow18 50s linear infinite;
+}
+.earth{
+    height: 20%;
+    width: 100%;
+    background-color: #15232E;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
