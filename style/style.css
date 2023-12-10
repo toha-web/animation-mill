@@ -214,4 +214,17 @@ img{
     bottom: 0;
     left: 0;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.copyright{
+    color: white;
+    margin-bottom: 10px;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
 }
